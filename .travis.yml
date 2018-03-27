@@ -1,0 +1,12 @@
+image: node:8
+
+cache:
+  directories:
+    - node_modules
+
+install:
+  - npm install
+
+test:
+  script:
+    - npm run test
