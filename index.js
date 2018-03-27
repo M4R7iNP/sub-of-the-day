@@ -15,6 +15,3 @@ async function getSubOfTheDay() {
 }
 
 module.exports = getSubOfTheDay;
-
-getSubOfTheDay()
-.then(console.log)
