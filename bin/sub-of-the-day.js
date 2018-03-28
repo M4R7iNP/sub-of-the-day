@@ -1,3 +1,4 @@
+#!/usr/bin/node
 const getSubOfTheDay = require('..');
 
 getSubOfTheDay()
