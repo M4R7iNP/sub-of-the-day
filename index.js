@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 
 const SUB_OF_THE_DAY_URL = 'http://www.subway.com/nb-no/menunutrition/menu/sub-of-the-day';
 
-async function getSubOfTheDay() {
+const getSubOfTheDay = async function() {
     const response = await fetch(SUB_OF_THE_DAY_URL);
     const html = await response.text();
     const $ = cheerio.load(html);
